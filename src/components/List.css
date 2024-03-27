@@ -1,0 +1,22 @@
+.tasks{
+    height: 25px;
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 4px 10px 4px 10px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid wheat;
+    border-radius: 6px;
+    color: wheat;
+    font-size: 10px;
+}
+button:hover{
+    border: 1px solid white;
+    color: white;
+}
