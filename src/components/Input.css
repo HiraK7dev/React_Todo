@@ -6,7 +6,7 @@
     align-items: center;
 }
 #InputField{
-    height: 35%;
+    height: 42%;
     width: 78%;
     padding: 5px 10px 5px 10px;
     border: 1px solid rgb(27, 27, 27);
@@ -16,7 +16,7 @@
     color: wheat;
 }
 #InputButton{
-    height: 48%;
+    height: 55%;
     width: 15%;
     padding: 5px;
     border: 1px solid rgb(27, 27, 27);
