@@ -8,6 +8,7 @@ function App() {
   const [id, setId] = useState(1);
   const [todo, setTodo] = useState([]);
   const [placeHolder, setPlaceHolder] = useState(`Write here....`);
+  console.log(todo);
   function updateList(event){
     const { value } = event.target.previousElementSibling;
     if(value === ``){
@@ -44,6 +45,8 @@ function App() {
       <Input updateList={updateList} placeHolder={placeHolder} />
       <div id='Output'>
         {
+          todo.length === 0 ?
+          <div id='noData'>EMPTY TODO</div> :
           todo.map((items) => {
             return <List value={items.value} complete={items.complete} id={items.id} handleComplete={handleComplete} handleDelete={handleDelete}/>
           })
